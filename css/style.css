@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+fieldset{
+    padding: 10px;
+}
+
+legend{
+    padding: 5px;
+    font-size: 150%;
+}
+
+input{
+    min-width: 200px;
+    padding: 5px 10px;
+}
+
+select,
+option{
+    min-width: 224px;
+    padding: 5px 10px;
+}
+

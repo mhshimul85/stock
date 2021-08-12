@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Analysis</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <fieldset class="expected_returns">
+            <legend>Expected Returns</legend>   
+            <label for="expected_returns_principal">Principal</label><br>
+            <input id="expected_returns_principal" name="expected_returns_principal"><br><br>
+
+            <label for="expected_returns_interest">Periodic Interest Rate(%)</label><br>
+            <input id="expected_returns_interest" name="expected_returns_interest" value="3"><br><br>
+
+            <label for="expected_returns_period">Period</label><br>
+            <select id="expected_returns_period_o" name="expected_returns_period">
+                <option value="24">Half Month Basis</option>
+                <option value="12" selected>One Month Basis</option>
+                <option value="6">Two Month Basis</option>
+                <option value="4">Three Month Basis</option>
+                <option value="3">Four Month Basis</option>
+                <option value="2">Six Month Basis</option>
+            </select><br>
+            <input id="expected_returns_period_i" name="expected_returns_period" value="1"><br><br>
+            <p>Expected Amount</p>
+            <p class="expected_amount">1</p>
+        </fieldset>
+    </div>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
